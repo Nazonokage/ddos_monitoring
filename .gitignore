@@ -1,0 +1,6 @@
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "dist/" >> .gitignore
+echo "build/" >> .gitignore
+echo "*.spec" >> .gitignore
+echo "venv/" >> .gitignore

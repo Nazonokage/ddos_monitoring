@@ -1,0 +1,10 @@
+ddos-web/
+├── app/
+│   ├── templates/
+│   │   └── dashboard.html
+│   ├── static/
+│   │   └── style.css
+│   ├── detector.py
+│   └── routes.py
+├── requirements.txt
+└── run.py
