@@ -1,0 +1,19 @@
+ddos-web/
+├── app/
+│   ├── templates/
+│   │   └── dashboard.html
+│   ├── static/
+│   │   └── style/style.css
+│   │   └── app.js
+│   ├── models/
+│   │   └── ddos_model.h5  (new file)
+│   ├── detector.py
+│   ├── ml_detector.py  (updated)
+│   └── routes.py
+├── requirements.txt
+└── run.py
+
+
+Remove-Item -Recurse -Force .\build, .\dist
+Remove-Item .\run.spec
+pyinstaller --onefile --console --add-data "app;app" run.py

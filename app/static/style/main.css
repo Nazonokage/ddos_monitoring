@@ -1,0 +1,79 @@
+/* static/style/main.css */
+:root {
+    --bg-dark: #1a1a2e;
+    --bg-darker: #16213e;
+    --primary: #4cc9f0;
+    --secondary: #f72585;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #e2e8f0;
+}
+
+.card {
+    background-color: var(--bg-darker);
+    border: 1px solid #2d3748;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    border-bottom: 1px solid #2d3748;
+    background-color: rgba(30, 41, 59, 0.5);
+}
+
+.table {
+    color: #e2e8f0;
+}
+
+.table-dark {
+    --bs-table-bg: var(--bg-darker);
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+.neumorphic {
+    background: var(--bg-darker);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow:  8px 8px 16px #0f172a,
+               -8px -8px 16px #1e293b;
+}
+
+/* Direction indicator styles */
+.badge.direction {
+    font-family: Arial, sans-serif;
+    padding: 0.25em 0.4em;
+    min-width: 1.5em;
+    display: inline-block;
+    text-align: center;
+}
+
+.traffic-in {
+    color: rgba(247, 37, 133, 0.2);
+}
+
+.traffic-out {
+    color: rgba(76, 201, 240, 0.2);
+}
+
+/* Progress bars */
+.progress {
+    background-color: #1e293b;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}

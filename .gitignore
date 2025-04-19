@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Build/distribution files
+build/
+dist/
+*.spec
+*.exe
+*.pkg
+*.pyd
+*.dll
+
+# Python cache and logs
+__pycache__/
+*.log
+*.pyc
+
+
+
+# System/IDE files
+.DS_Store
+.idea/
+.vscode/
