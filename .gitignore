@@ -9,7 +9,7 @@ venv/
 
 # Distribution / packaging
 build/
-dist/
+
 *.spec
 
 # Installer logs
