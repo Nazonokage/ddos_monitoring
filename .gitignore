@@ -1,6 +1,16 @@
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "dist/" >> .gitignore
-echo "build/" >> .gitignore
-echo "*.spec" >> .gitignore
-echo "venv/" >> .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.spec
+
+# Installer logs
+pip-log.txt
