@@ -1,0 +1,19 @@
+.table-dark.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.nav-tabs .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid #0dcaf0;
+}
+
+.badge.direction {
+    min-width: 2em;
+    font-family: monospace;
+}
