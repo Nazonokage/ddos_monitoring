@@ -1,0 +1,152 @@
+2025-10-01 18:52:38,315 - EnhancedDDoSDetector - INFO - Local HOST IPs excluded from detection: {'127.0.0.1', '::1', '2001:4454:480:e800:7e42:5f93:52de:1f6b', '169.254.165.17', 'fe80::6f20:5214:f00f:8562', '192.168.56.1', '169.254.165.90', '0.0.0.0', 'fe80::d5ba:f19b:1d72:8bdf', 'fe80::e07b:fde9:975f:42cd', '2001:4454:480:e800:4524:6a62:1ae:dc26', 'fe80::fe79:81b0:46b2:8814', '169.254.236.217', 'localhost', 'fe80::db1b:38cc:46d8:6a42', '192.168.1.42'}
+2025-10-01 18:52:38,316 - EnhancedDDoSDetector - INFO - EnhancedDDoSDetector initialized with improved threat detection
+2025-10-01 18:52:38,324 - EnhancedDDoSDetector - INFO - Local HOST IPs excluded from detection: {'127.0.0.1', '::1', '2001:4454:480:e800:7e42:5f93:52de:1f6b', '169.254.165.17', 'fe80::6f20:5214:f00f:8562', '192.168.56.1', '169.254.165.90', '0.0.0.0', 'fe80::d5ba:f19b:1d72:8bdf', 'fe80::e07b:fde9:975f:42cd', '2001:4454:480:e800:4524:6a62:1ae:dc26', 'fe80::fe79:81b0:46b2:8814', '169.254.236.217', 'localhost', 'fe80::db1b:38cc:46d8:6a42', '192.168.1.42'}
+2025-10-01 18:52:38,325 - EnhancedDDoSDetector - INFO - EnhancedDDoSDetector initialized with improved threat detection
+2025-10-01 18:52:38,341 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8070
+ * Running on http://192.168.1.42:8070
+2025-10-01 18:52:38,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-01 18:52:38,342 - werkzeug - INFO -  * Restarting with stat
+2025-10-01 18:52:38,618 - EnhancedDDoSDetector - INFO - Local HOST IPs excluded from detection: {'fe80::e07b:fde9:975f:42cd', '169.254.236.217', 'fe80::fe79:81b0:46b2:8814', 'fe80::6f20:5214:f00f:8562', 'fe80::d5ba:f19b:1d72:8bdf', 'fe80::db1b:38cc:46d8:6a42', '::1', 'localhost', '0.0.0.0', '169.254.165.90', '192.168.56.1', '192.168.1.42', '2001:4454:480:e800:7e42:5f93:52de:1f6b', '169.254.165.17', '127.0.0.1', '2001:4454:480:e800:4524:6a62:1ae:dc26'}
+2025-10-01 18:52:38,618 - EnhancedDDoSDetector - INFO - EnhancedDDoSDetector initialized with improved threat detection
+2025-10-01 18:52:38,626 - EnhancedDDoSDetector - INFO - Local HOST IPs excluded from detection: {'fe80::e07b:fde9:975f:42cd', '169.254.236.217', 'fe80::fe79:81b0:46b2:8814', 'fe80::6f20:5214:f00f:8562', 'fe80::d5ba:f19b:1d72:8bdf', 'fe80::db1b:38cc:46d8:6a42', '::1', 'localhost', '0.0.0.0', '169.254.165.90', '192.168.56.1', '192.168.1.42', '2001:4454:480:e800:7e42:5f93:52de:1f6b', '169.254.165.17', '127.0.0.1', '2001:4454:480:e800:4524:6a62:1ae:dc26'}
+2025-10-01 18:52:38,626 - EnhancedDDoSDetector - INFO - EnhancedDDoSDetector initialized with improved threat detection
+2025-10-01 18:52:38,638 - werkzeug - WARNING -  * Debugger is active!
+2025-10-01 18:52:38,639 - werkzeug - INFO -  * Debugger PIN: 143-995-149
+2025-10-01 18:52:39,427 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:39] "GET / HTTP/1.1" 200 -
+2025-10-01 18:52:39,520 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:39] "GET /static/style.css HTTP/1.1" 200 -
+2025-10-01 18:52:39,522 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:39] "GET /static/app.js HTTP/1.1" 200 -
+2025-10-01 18:52:39,841 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:39] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:40,850 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:40] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:41,813 - EnhancedDDoSDetector - INFO - Establishing baseline for 60 seconds...
+2025-10-01 18:52:41,813 - EnhancedDDoSDetector - INFO - Enhanced monitoring started
+2025-10-01 18:52:41,833 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:41] "GET /start HTTP/1.1" 200 -
+2025-10-01 18:52:41,933 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:41] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:41,967 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:41] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:42,853 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:42] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:43,877 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:43] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:58,908 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:58] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:52:59,925 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:52:59] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:00,904 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:00] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:01,938 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:01] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:02,904 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:02] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:03,921 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:03] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:04,868 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:04] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:05,869 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:05] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:06,869 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:06] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:07,869 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:07] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:14,357 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:14] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:15,334 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:15] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:18,663 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:18] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:18,970 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:18] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:19,953 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:19] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:20,243 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:20] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:21,215 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:21] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:22,215 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:22] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:23,217 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:23] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:24,216 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:24] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:25,216 - werkzeug - INFO - 127.0.0.1 - - [01/Oct/2025 18:53:25] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:35,328 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:35] "GET / HTTP/1.1" 200 -
+2025-10-01 18:53:35,359 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:35] "GET /static/style.css HTTP/1.1" 200 -
+2025-10-01 18:53:35,361 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:35] "GET /static/app.js HTTP/1.1" 200 -
+2025-10-01 18:53:35,940 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:35] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:35,975 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-01 18:53:36,941 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:36] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:37,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:37] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:38,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:38] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:39,963 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:39] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:40,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:40] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:41,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:41] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:42,430 - EnhancedDDoSDetector - INFO - Baseline established - Connections: 44.93, Traffic: 1523137.23 KB/s, Packets: 1588423 packets/s
+2025-10-01 18:53:42,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:42] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:43,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:43] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:44,941 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:44] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:45,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:45] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:46,961 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:46] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:47,941 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:47] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:48,941 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:48] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:49,941 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:49] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:50,943 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:50] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:51,943 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:51] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:53:52,942 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:53:52] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:10,733 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 6028 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:10,733 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (6028) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:12,826 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 19690 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:12,826 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (19690) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:13,313 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:13] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:14,311 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:14] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:15,326 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:15] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:16,341 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 28630 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:16,348 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (28630) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:16,348 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:16] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:17,529 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:17] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:18,565 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:18] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:19,382 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:19] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:20,338 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:20] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:20,970 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 38384 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:20,970 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (38384) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:21,329 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:21] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:22,557 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:22] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:23,028 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 5019 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:23,028 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (5019) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:23,400 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:23] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:24,200 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:24] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:24,815 - EnhancedDDoSDetector - CRITICAL - CONNECTION FLOOD DETECTED: 1251 connections | Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:24,815 - EnhancedDDoSDetector - CRITICAL - CONNECTION_FLOOD: Connection count (1251) exceeded threshold (500) - Main attacker: 192.168.1.48 (threat: 35)
+2025-10-01 18:55:25,238 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:25] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:25,503 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-01 18:55:26,232 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:26] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:27,178 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:27] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:28,199 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:28] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:29,176 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:29] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:30,193 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:30] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:31,206 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:31] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:32,177 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:32] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:33,210 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:33] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:34,212 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:34] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:35,175 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:35] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:36,315 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:36] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:37,193 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:37] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:38,199 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:38] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:39,204 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:39] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:40,194 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:40] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:41,195 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:41] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:42,175 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:42] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:43,176 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:43] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:44,175 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:44] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:45,176 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:45] "GET /data HTTP/1.1" 200 -
+2025-10-01 18:55:46,188 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 18:55:46] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:01:25,723 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:26,700 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:27,731 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:28,802 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:29,829 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:30,991 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:32,134 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:33,098 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:34,186 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:35,140 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:36,116 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:37,170 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:38,235 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:39,212 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:40,285 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:41,244 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:42,235 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:43,327 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:44,392 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:01:45,476 - EnhancedDDoSDetector - CRITICAL - IDENTIFIED_ATTACKER: High threat attacker detected: 216.24.57.251 (score: 90)
+2025-10-01 19:02:47,398 - EnhancedDDoSDetector - WARNING - IDENTIFIED_ATTACKER: High threat attacker detected: 2600:1f18:2e6a:f800:231f:4a8c:6cae:1ee (score: 65)
+2025-10-01 19:06:05,659 - EnhancedDDoSDetector - WARNING - IDENTIFIED_ATTACKER: High threat attacker detected: 142.251.221.42 (score: 65)
+2025-10-01 19:06:34,321 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:34] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:36,710 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:36] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:37,693 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:37] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:38,694 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:38] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:39,693 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:39] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:40,694 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:40] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:41,710 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:41] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:45,932 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:45] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:46,932 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:46] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:47,931 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:47] "GET /data HTTP/1.1" 200 -
+2025-10-01 19:06:48,932 - werkzeug - INFO - 192.168.1.42 - - [01/Oct/2025 19:06:48] "GET /data HTTP/1.1" 200 -

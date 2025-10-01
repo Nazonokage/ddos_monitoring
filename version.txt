@@ -1,0 +1,27 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(5,1,0,0),
+    prodvers=(5,1,0,0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0,0)
+    ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'040904b0',
+        [StringStruct(u'CompanyName', u'YourNameOrCompany'),
+         StringStruct(u'FileDescription', u'DDoS Monitor'),
+         StringStruct(u'FileVersion', u'5.1'),
+         StringStruct(u'InternalName', u'ddos_monitor_v5.1.exe'),
+         StringStruct(u'OriginalFilename', u'ddos_monitor_v5.1.exe'),
+         StringStruct(u'ProductName', u'DDoS Monitor'),
+         StringStruct(u'ProductVersion', u'3.0.1')])
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [0x0409, 1200])])
+  ]
+)
