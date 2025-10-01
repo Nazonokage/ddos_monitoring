@@ -4,6 +4,7 @@ ddos-web/
 │   │   └── dashboard.html
 │   ├── static/
 │   │   └── style.css
+│   ├── __init__.py
 │   ├── detector.py
 │   └── routes.py
 ├── requirements.txt

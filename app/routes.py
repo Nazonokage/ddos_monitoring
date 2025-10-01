@@ -57,40 +57,44 @@ def stop_monitoring():
 
 @main_bp.route('/settings', methods=['POST'])
 def update_settings():
-    """Update monitoring settings"""
     try:
         settings = request.get_json()
-        
-        # Validate settings
+
         if 'threshold' in settings:
             detector.threshold = max(1, int(settings['threshold']))
         if 'alert_threshold' in settings:
             detector.alert_threshold = max(0.1, min(0.99, float(settings['alert_threshold'])))
         if 'interval' in settings:
             detector.interval = max(0.1, float(settings['interval']))
-        
-        # Update current data settings
+
+        # --- NEW: noise/ignore controls ---
+        if 'ignore_loopback' in settings:
+            detector.ignore_loopback = bool(settings['ignore_loopback'])
+        if 'ignore_self_ips' in settings:
+            detector.ignore_self_ips = bool(settings['ignore_self_ips'])
+        if 'server_port' in settings and settings['server_port']:
+            detector.server_port = int(settings['server_port'])
+        if 'count_only_established' in settings:
+            detector.count_only_established = bool(settings['count_only_established'])
+
         with detector.data_lock:
             detector.current_data['settings'].update({
                 'threshold': detector.threshold,
                 'alert_threshold': detector.alert_threshold,
-                'interval': detector.interval
+                'interval': detector.interval,
+                'ignore_loopback': detector.ignore_loopback,
+                'ignore_self_ips': detector.ignore_self_ips,
+                'server_port': detector.server_port,
+                'count_only_established': detector.count_only_established,
             })
-        
+
         return jsonify({
             'success': True,
             'message': 'Settings updated successfully',
-            'settings': {
-                'threshold': detector.threshold,
-                'alert_threshold': detector.alert_threshold,
-                'interval': detector.interval
-            }
+            'settings': detector.current_data['settings']
         })
     except Exception as e:
-        return jsonify({
-            'success': False,
-            'message': f'Error updating settings: {str(e)}'
-        }), 400
+        return jsonify({'success': False, 'message': f'Error updating settings: {str(e)}'}), 400
 
 @main_bp.route('/report')
 def get_attack_report():
